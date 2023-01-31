@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="Pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisando Html</title>
+    <!--Adicionando CSS interno-->
+    <style type="text/css">
+        #titulo {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     
-    <h2>Tags de Títulos e Cabeçalhos</h2>
+    <h2 id="titulo">TAGS DE TÍTULOS E CABEÇALHOS</h2> 
+
     <h1>Títulos em Html H1</h1>
     <h2>Títulos em Html H2</h2>
     <h3>Títulos em Html H3</h3>
@@ -16,6 +23,7 @@
     <h5>Títulos em Html H5</h5>
     <h6>Títulos em Html H6</h6>
     <hr><!-- inseri uma linha -->
+    <h2 id="titulo">TAGS DE FORMATAÇÃO E TEXTO</h2> 
     <p>
         Inserindo um texto ou paragrafos com a tag <b>p</b> 
     </p>
@@ -26,7 +34,62 @@
         <b>De <del>R$ 497,00</del>  por <mark>$300,00</b></mark>
         <br>
         Vou dar um <del>presente</del> <sup>Vender</sup> o produto X.
+
+        <br><br><br>
+        <ul>
+            <li>b = Negrito</li>
+            <li>strong = Negrito (enfâse)</li>
+            <li>i = itálico</li>
+            <li>u = sublinhado (underline)</li>
+            <li>hr = linha de divisão</li>
+            <li>small = texto pequeno</li>
+            <li>del = Riscado no meio do texto (deletado)</li>
+            <li>sup = Superior</li>
+            <li>sub =inferior</li>
+            <li>mark = marcação</li>
+        </ul>
+        
+       
+
+
+
     </p>
+    <hr>
+    <h2 id="titulo">TAGS DE LINK E IMAGENS</h2> 
+
+    <!--Link absoluto-->
+    <a href="https://www.w3schools.com" target="_blank">Isso é um link</a>
+    <br><br><br>
+    <!--Link relativo-->
+    <a href="formulario.html" target="_blank">Formulário</a>
+    <br><br><br>
+    
+
+
+    <img src="/HtmlCss/assets/logo.png" alt="Logo Html e CSS" width="250" height="142">
+    <hr>
+    <h2 id="titulo">TAGS DE ELEMENTOS E CITAÇÕES</h2>
+    <br>
+    <p>Estou aprendendo <abbr title="Hyper text markup language"> HTML</abbr>.
+        
+    </p>
+    <address>
+        Rua dos sonhos, 1234
+    </address>
+    <p>O filme <cite>Titanic</cite> com Leonardo di Caprio. Ele disse: <q> Rose pq eu não subi naquela porta? Cabe nós dois tranquilo!</q></p>
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis vel quis quo accusantium consequatur consectetur culpa. Maxime veniam repudiandae sapiente numquam velit vitae, ullam inventore similique, magni ipsum eligendi corrupti.<br><br>
+        <b><bdo dir="rtl">Janaina</bdo></b><br>
+        <b><bdo dir="ltr">Janaina</bdo></b><br>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui, nam ipsum laudantium sunt cumque dolore illum. Molestias quos quaerat doloremque, nesciunt, deserunt ipsam voluptatibus eaque porro, vitae tenetur quia!
+        <blockquote>Ela com certeza conseguiria ajudar o Jack.</blockquote>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa vitae beatae saepe vero, quia quas ipsa consequatur laborum laudantium quod libero voluptas nobis maiores accusamus quis animi, perferendis ipsum.
+    </p>
+
+
+
 
 
 
